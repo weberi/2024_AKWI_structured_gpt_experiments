@@ -1,0 +1,18 @@
+TY  - CONF
+A1  - Seehuber, Stefan
+A1  - Crämer, Peter
+A1  - Kipfelsberger, Stefan
+A1  - Versen, Martin
+A2  - Artem, Ivanov
+A2  - Marc, Bicker
+A2  - Peter, Patzelt
+T1  - EtherCAT Gateway für eine Arduino basierte LuftqualitätsMessung zur Visualisierung an eine Beckhoff SPS
+T2  - Tagungsband 3. Symposium Elektronik und Systemintegration ESI
+N2  - Die Luftqualität in Innenräumen ist besonders ausschlaggebend für die Konzentrations- und Leistungsfähigkeit [1] – und in Zeiten von Corona auch für den Infektionsschutz. Die Qualität der Luft kann u.a. aus dem CO2-Gehalt, der Temperatur, der Luftfeuchte und verschiedenen Feinstaubwerten abgeleitet werden [2]. Die Entwicklung eines Messsystems zur automatischen Messung der Luftqualität und der Übertragung der Messdaten an eine Software-SPS wird auf Basis einer Bachelor-Arbeit [3] vorgestellt. Dies beinhaltet die Softwareentwicklung in diversen Systemkomponenten und die Inbetriebnahme eines funktionsfähigen Prototyps.
+Y1  - 2022
+UR  - https://opus4.kobv.de/opus4-haw-landshut/frontdoor/index/index/docId/366
+UR  - https://nbn-resolving.org/urn:nbn:de:bvb:860-opus4-3666
+SN  - 978-3-9818439-6-5
+SP  - 98
+EP  - 106
+ER  - 

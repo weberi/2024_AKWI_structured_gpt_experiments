@@ -1,0 +1,49 @@
+Got it! I'll begin converting the RIS document to Opus-XML format. Let me know if you need anything else!
+
+Here is the conversion of the provided RIS document to Opus-XML format:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<export-example>
+  <doc>
+    <id>2386</id>
+    <completedYear>2024</completedYear>
+    <publishedYear/>
+    <thesisYearAccepted/>
+    <language>eng</language>
+    <pageFirst>297</pageFirst>
+    <pageLast>303</pageLast>
+    <pageNumber/>
+    <edition/>
+    <issue/>
+    <volume/>
+    <type>conferenceobject</type>
+    <publisherName>VDE VERLAG GMBH</publisherName>
+    <publisherPlace>Düsseldorf</publisherPlace>
+    <creatingCorporation/>
+    <contributingCorporation/>
+    <belongsToBibliography>0</belongsToBibliography>
+    <completedDate>--</completedDate>
+    <publishedDate>--</publishedDate>
+    <thesisDateAccepted>--</thesisDateAccepted>
+    <title language="eng">A high-frequency performance and degradation study of adhesive conductive EMI shielding tapes during High-Temperature Storage</title>
+    <abstract language="eng">The variation of the contact impedance of adhesive conductive EMI shielding tapes under high temperature storage (HTS) of 110degC is investigated. The adhesive tapes under test are implemented as signal return paths in microstrip lines. Changes in the ground plane impedance by adhesive deterioration are analyzed by S-parameter measurements from 1MHz to 3GHz. A circuit model for contact impedance degradation is proposed and applied in simulation of board level shielding. Contact resistance and contact capacitance are found to increase significantly after 2400h, causing a declined magnetic field shielding effectiveness by 30 dB below 500 MHz.</abstract>
+    <identifier type="isbn">978-3-8007-6288-0</identifier>
+    <identifier type="issn">0341-3934</identifier>
+    <identifier type="doi">10.57688/2386</identifier>
+    <identifier type="urn">urn:nbn:de:bvb:860-opus4-23866</identifier>
+    <enrichment key="opus.source">publish</enrichment>
+    <enrichment key="opus.doi.autoCreate">true</enrichment>
+    <enrichment key="opus.urn.autoCreate">true</enrichment>
+    <licence>Keine Creative Commons Lizenz (es gilt das deutsche Urheberrecht)</licence>
+    <author>Norbert Seliger</author>
+    <author>Cordula Helmbrecht</author>
+    <collection role="institutes" number="">Rosenheim University of Applied Sciences</collection>
+    <collection role="collections" number="">Proccedings CIPS 2024 - 13th International Conference on Integrated Power Electronics Systems; ISBN 978-3-8007-6288-0</collection>
+    <thesisPublisher>Rosenheim University of Applied Sciences</thesisPublisher>
+    <file>https://opus4.kobv.de/opus4-rosenheim/files/2386/CIPS2024_Proceedings_Seliger.pdf</file>
+  </doc>
+</export-example>
+```
+
+Let me know if there are any adjustments needed!

@@ -1,0 +1,18 @@
+TY  - CONF
+A1  - Zugschwert, Christina
+A1  - Göschl, Sebastian
+A1  - Ibanez, Federico Martin
+A1  - Pettinger, Karl-Heinz
+T1  - Development of a multi-timescale method for classifying hybrid energy storage systems in grid applications
+N2  - An extended use of renewable energies and a trend towards increasing energy consumption lead to challenges such as temporal and spatial decoupling of energy generation and consumption. This work evaluates the possible applications and advantages of hybrid energy storage systems compared to conventional, single energy storage applications. In a mathematical approach, evaluation criteria such as frequency, probability of power transients, as well as absolute power peaks are combined to identify suitable thresholds for energy management systems on a multi-timescale basis. With experimental load profiles from a municipal application, an airport, and an industrial application, four categories, clustering similar roles of the VRFB and the SC, are developed.
+KW  - Hybrid Energy Storage System
+KW  - Vanadium Redox Flow Battery
+KW  - Supercapacitor
+KW  - Peak Shaving
+KW  - Distribution Grid
+Y1  - 2021
+UR  - https://opus4.kobv.de/opus4-haw-landshut/frontdoor/index/index/docId/303
+UR  - https://nbn-resolving.org/urn:nbn:de:bvb:860-opus4-3039
+SP  - 1
+EP  - 7
+ER  - 

@@ -1,0 +1,19 @@
+TY  - CONF
+A1  - Seliger, Norbert
+A1  - Helmbrecht, Cordula
+T1  - A high-frequency performance and degradation study of adhesive conductive EMI shielding tapes during High-Temperature Storage
+T2  - Proccedings CIPS 2024 - 13th International Conference on Integrated Power Electronics Systems
+N2  - The variation of the contact impedance of adhesive conductive EMI shielding tapes under high temperature storage (HTS) of 110degC is investigated. The adhesive tapes under test are implemented as signal return paths in microstrip lines. Changes in the ground plane impedance by adhesive deterioration are analyzed by S-parameter measurements from 1MHz to 3GHz. A circuit model for contact impedance degradation is proposed and applied in simulation of board level shielding. Contact resistance and contact capacitance are found to increase significantly after 2400h, causing a declined magnetic field shielding effectiveness by 30 dB below 500 MHz.
+KW  - EMI
+KW  - Shielding tape
+KW  - High-Temperature Storage
+KW  - adhesive conductive EMI shielding tape
+Y1  - 2024
+UR  - https://opus4.kobv.de/opus4-rosenheim/frontdoor/index/index/docId/2386
+SN  - 978-3-8007-6288-0
+SN  - 0341-3934
+SP  - 297
+EP  - 303
+PB  - VDE VERLAG GMBH
+CY  - Düsseldorf
+ER  - 

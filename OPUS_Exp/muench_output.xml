@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export-example>
+  <doc>
+    <id>365</id>
+    <completedYear>2022</completedYear>
+    <publishedYear/>
+    <thesisYearAccepted/>
+    <language>deu</language>
+    <pageFirst>88</pageFirst>
+    <pageLast>97</pageLast>
+    <pageNumber/>
+    <edition/>
+    <issue/>
+    <volume/>
+    <type>conferenceobject</type>
+    <publisherName/>
+    <publisherPlace/>
+    <creatingCorporation/>
+    <contributingCorporation/>
+    <belongsToBibliography>0</belongsToBibliography>
+    <completedDate>--</completedDate>
+    <publishedDate>--</publishedDate>
+    <thesisDateAccepted>--</thesisDateAccepted>
+    <title language="deu">Integration of a Security Gateway for Critical Infrastructure into Existing PKI Systems</title>
+    <abstract language="deu">The Transport Layer Security (TLS) protocol is used to cryptographically secure network connections. To ensure authenticity, TLS uses certificates that are exchanged at the beginning of each new connection. Due to expiration or early revocation of certificates, the deployment of new certificates to devices in the field is necessary. In addition, a device must identify revoked certificates during connection establishment to abort the connection. This paper presents the implementation of these two functionalities within a Security Gateway for the power grid. The nature of embedded systems with their limited resources and requirements regarding dependability impact the device-specific implementation. With these features, the Security Gateway can be integrated into an existing Public-Key Infrastructure System.</abstract>
+    <parentTitle language="deu">Tagungsband 3. Symposium Elektronik und Systemintegration ESI</parentTitle>
+    <identifier type="isbn">978-3-9818439-6-5</identifier>
+    <identifier type="doi">10.57688/365</identifier>
+    <identifier type="urn">urn:nbn:de:bvb:860-opus4-3650</identifier>
+    <enrichment key="opus.source">publish</enrichment>
+    <enrichment key="opus.doi.autoCreate">true</enrichment>
+    <enrichment key="opus.urn.autoCreate">true</enrichment>
+    <licence>Keine Creative Commons Lizenz (es gilt das deutsche Urheberrecht)</licence>
+    <author>Andreas Münch</author>
+    <author>Tobias Frauenschläger</author>
+    <author>Jürgen Mottok</author>
+    <collection role="institutes" number="">Cluster Mikrosystemtechnik</collection>
+    <collection role="collections" number="">Tagungsband 3. Symposium Elektronik und Systemintegration ESI 2022: Fachbeiträge; ISBN 978-3-9818439-4-1</collection>
+    <thesisPublisher>Hochschule für Angewandte Wissenschaften Landshut</thesisPublisher>
+    <file>https://opus4.kobv.de/opus4-haw-landshut/files/365/3ESI2022_Tagungsband_Münch.pdf</file>
+  </doc>
+</export-example>

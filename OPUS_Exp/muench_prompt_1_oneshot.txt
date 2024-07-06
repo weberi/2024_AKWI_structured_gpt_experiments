@@ -1,0 +1,86 @@
+
+I will input a ris-document. Please convert it to Opus-XML. First, you will be provided with an example input and output. Here is the example input: '''
+TY  - CONF
+A1  - Seehuber, Stefan
+A1  - Crämer, Peter
+A1  - Kipfelsberger, Stefan
+A1  - Versen, Martin
+A2  - Artem, Ivanov
+A2  - Marc, Bicker
+A2  - Peter, Patzelt
+T1  - EtherCAT Gateway für eine Arduino basierte LuftqualitätsMessung zur Visualisierung an eine Beckhoff SPS
+T2  - Tagungsband 3. Symposium Elektronik und Systemintegration ESI
+N2  - Die Luftqualität in Innenräumen ist besonders ausschlaggebend für die Konzentrations- und Leistungsfähigkeit [1] – und in Zeiten von Corona auch für den Infektionsschutz. Die Qualität der Luft kann u.a. aus dem CO2-Gehalt, der Temperatur, der Luftfeuchte und verschiedenen Feinstaubwerten abgeleitet werden [2]. Die Entwicklung eines Messsystems zur automatischen Messung der Luftqualität und der Übertragung der Messdaten an eine Software-SPS wird auf Basis einer Bachelor-Arbeit [3] vorgestellt. Dies beinhaltet die Softwareentwicklung in diversen Systemkomponenten und die Inbetriebnahme eines funktionsfähigen Prototyps.
+Y1  - 2022
+UR  - https://opus4.kobv.de/opus4-haw-landshut/frontdoor/index/index/docId/366
+UR  - https://nbn-resolving.org/urn:nbn:de:bvb:860-opus4-3666
+SN  - 978-3-9818439-6-5
+SP  - 98
+EP  - 106
+ER  - 
+'''
+Here is the example output: '''
+<?xml version="1.0" encoding="utf-8"?>
+<export-example>
+  <doc>
+    <id>366</id>
+    <completedYear>2022</completedYear>
+    <publishedYear/>
+    <thesisYearAccepted/>
+    <language>deu</language>
+    <pageFirst>98</pageFirst>
+    <pageLast>106</pageLast>
+    <pageNumber/>
+    <edition/>
+    <issue/>
+    <volume/>
+    <type>conferenceobject</type>
+    <publisherName/>
+    <publisherPlace/>
+    <creatingCorporation/>
+    <contributingCorporation/>
+    <belongsToBibliography>0</belongsToBibliography>
+    <completedDate>--</completedDate>
+    <publishedDate>--</publishedDate>
+    <thesisDateAccepted>--</thesisDateAccepted>
+    <title language="deu">EtherCAT Gateway für eine Arduino basierte LuftqualitätsMessung zur Visualisierung an eine Beckhoff SPS</title>
+    <abstract language="deu">Die Luftqualität in Innenräumen ist besonders ausschlaggebend für die Konzentrations- und Leistungsfähigkeit [1] – und in Zeiten von Corona auch für den Infektionsschutz. Die Qualität der Luft kann u.a. aus dem CO2-Gehalt, der Temperatur, der Luftfeuchte und verschiedenen Feinstaubwerten abgeleitet werden [2]. Die Entwicklung eines Messsystems zur automatischen Messung der Luftqualität und der Übertragung der Messdaten an eine Software-SPS wird auf Basis einer Bachelor-Arbeit [3] vorgestellt. Dies beinhaltet die Softwareentwicklung in diversen Systemkomponenten und die Inbetriebnahme eines funktionsfähigen Prototyps.</abstract>
+    <parentTitle language="deu">Tagungsband 3. Symposium Elektronik und Systemintegration ESI</parentTitle>
+    <identifier type="isbn">978-3-9818439-6-5</identifier>
+    <identifier type="doi">10.57688/366</identifier>
+    <identifier type="urn">urn:nbn:de:bvb:860-opus4-3666</identifier>
+    <enrichment key="opus.source">publish</enrichment>
+    <enrichment key="opus.doi.autoCreate">true</enrichment>
+    <enrichment key="opus.urn.autoCreate">true</enrichment>
+    <licence>Keine Creative Commons Lizenz (es gilt das deutsche Urheberrecht)</licence>
+    <author>Stefan Seehuber</author>
+    <author>Peter Crämer</author>
+    <author>Stefan Kipfelsberger</author>
+    <author>Martin Versen</author>
+    <collection role="institutes" number="">Cluster Mikrosystemtechnik</collection>
+    <collection role="collections" number="">Tagungsband 3. Symposium Elektronik und Systemintegration ESI 2022: Fachbeiträge; ISBN 978-3-9818439-4-1</collection>
+    <thesisPublisher>Hochschule für Angewandte Wissenschaften Landshut</thesisPublisher>
+    <file>https://opus4.kobv.de/opus4-haw-landshut/files/366/3ESI2022_Tagungsband_Seehuber.pdf</file>
+  </doc>
+</export-example>
+'''
+Here is the ris-document you must convert:
+'''
+TY  - CONF
+A1  - Münch, Andreas
+A1  - Frauenschläger, Tobias
+A1  - Mottok, Jürgen
+A2  - Artem, Ivanov
+A2  - Marc, Bicker
+A2  - Peter, Patzelt
+T1  - Integration of a Security Gateway for Critical Infrastructure into Existing PKI Systems
+T2  - Tagungsband 3. Symposium Elektronik und Systemintegration ESI
+N2  - The Transport Layer Security (TLS) protocol is used to cryptographically secure network connections. To ensure authenticity, TLS uses certificates that are exchanged at the beginning of each new connection. Due to expiration or early revocation of certificates, the deployment of new certificates to devices in the field is necessary. In addition, a device must identify revoked certificates during connection establishment to abort the connection. This paper presents the implementation of these two functionalities within a Security Gateway for the power grid. The nature of embedded systems with their limited resources and requirements regarding dependability impact the device-specific implementation. With these features, the Security Gateway can be integrated into an existing Public-Key Infrastructure System.
+Y1  - 2022
+UR  - https://opus4.kobv.de/opus4-haw-landshut/frontdoor/index/index/docId/365
+UR  - https://nbn-resolving.org/urn:nbn:de:bvb:860-opus4-3650
+SN  - 978-3-9818439-6-5
+SP  - 88
+EP  - 97
+ER  - 
+''' 

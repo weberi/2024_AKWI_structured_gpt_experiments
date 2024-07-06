@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export-example>
+  <doc>
+    <id>303</id>
+    <completedYear>2021</completedYear>
+    <language>eng</language>
+    <pageFirst>1</pageFirst>
+    <pageLast>7</pageLast>
+    <type>conferenceobject</type>
+    <title language="eng">Development of a multi-timescale method for classifying hybrid energy storage systems in grid applications</title>
+    <abstract language="eng">An extended use of renewable energies and a trend towards increasing energy consumption lead to challenges such as temporal and spatial decoupling of energy generation and consumption. This work evaluates the possible applications and advantages of hybrid energy storage systems compared to conventional, single energy storage applications. In a mathematical approach, evaluation criteria such as frequency, probability of power transients, as well as absolute power peaks are combined to identify suitable thresholds for energy management systems on a multi-timescale basis. With experimental load profiles from a municipal application, an airport, and an industrial application, four categories, clustering similar roles of the VRFB and the SC, are developed.</abstract>
+    <identifier type="isbn"/>
+    <identifier type="doi">10.57688/303</identifier>
+    <identifier type="urn">urn:nbn:de:bvb:860-opus4-3039</identifier>
+    <enrichment key="opus.source">publish</enrichment>
+    <enrichment key="opus.doi.autoCreate">true</enrichment>
+    <enrichment key="opus.urn.autoCreate">true</enrichment>
+    <licence>Keine Creative Commons Lizenz (es gilt das deutsche Urheberrecht)</licence>
+    <author>Christina Zugschwert</author>
+    <author>Sebastian Göschl</author>
+    <author>Federico Martin Ibanez</author>
+    <author>Karl-Heinz Pettinger</author>
+    <collection role="institutes" number="">Cluster Mikrosystemtechnik</collection>
+    <collection role="collections" number="">Tagungsband 3. Symposium Elektronik und Systemintegration ESI 2021: Fachbeiträge; ISBN 978-3-9818439-4-1</collection>
+    <thesisPublisher>Hochschule für Angewandte Wissenschaften Landshut</thesisPublisher>
+    <file>https://opus4.kobv.de/opus4-haw-landshut/files/303/3ESI2021_Tagungsband_Zugschwert.pdf</file>
+  </doc>
+</export-example>
