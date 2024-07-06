@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource{example.bib}
+\begin{document}
+
+\title{Anonymized Table with BibTeX References}
+\author{Your Name}
+\date{\today}
+\maketitle
+
+\section{Table}
+
+\begin{tabular}{lll}
+  Topic  & Course  & Literature \\
+  \hline   
+  Python 101  &  Introductory Course  &  \cite{smithPython101Introduction2023a, smithPython101Advanced2023} \\
+  Java Fundamentals  & Object-oriented Programming & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} \\
+  Java Fundamentals &  GUI Development & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} \\
+  
+  DataScienceBasics &  Data Analysis   & \cite{brownDataScienceBasics2023}  \\
+  Data Science Basics &  Machine Learning Models  &  \cite{brownDataScienceBasics2023}  \\
+  Data Science Basics &  Data Visualization  &  \cite{brownDataScienceBasics2023}  \\
+  
+  Cyber Security Fundamentals &  Network Security Fundamentals  & \cite{wilsonCyberSecurityFundamentals2023} \\
+  Cyber Security Fundamentals &  Ethical Hacking     & \cite{wilsonCyberSecurityFundamentals2023} \\
+  
+  Web Development 101 &  Frontend Development  & \cite{johnsonWebDevelopment1012023} \\
+
+  Mobile App Development &  App Development Basics    & \cite{thomasMobileAppDevelopmentBasics2023} \\
+  Mobile App Development &  Backend Integration   & \cite{thomasMobileAppDevelopmentBasics2023} \\
+  
+
+   \hline
+   \hline
+   Machine Learning Mastery &   Neural Networks  &  \cite{wilsonMachineLearningMastery2023} \\
+   Machine Learning Mastery &   Reinforcement Learning    &  \cite{wilsonMachineLearningMastery2023} \\
+  
+   Cloud Computing Essentials & Cloud Infrastructure &  \cite{leeCloudComputingEssentials2023}\\
+  Database Management Systems & Database Design  & \cite{adamsDatabaseManagementSystems2023} \\
+  Database Management Systems & Query Optimization & \cite{adamsDatabaseManagementSystems2023} \\
+  Game Development Basics & Graphics Programming & \cite{martinezGameDevelopmentBasics2023}  \\
+
+
+  Cyber Security Professional  &  Incident Response & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+ Cyber Security Professional  & Penetration Testing & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+  Cyber Security Professional  & Threat Intelligence & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+ 
+  Cyber Security Professional  &  Cryptography & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+  \hline 
+  \end{tabular}
+
+  
+
+
+\section{References}
+
+% \bibliographystyle{plain}
+% \bibliography{example}
+\printbibliography 
+
+\end{document}
