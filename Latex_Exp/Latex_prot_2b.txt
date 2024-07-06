@@ -1,0 +1,88 @@
+ChatGPT 3.5
+User
+I will give you a latex table. Please swap the "Course" and "Literature" columns'''
+
+\begin{tabular}{lll}
+  Topic  & Course  & Literature \\
+  \hline   
+  Python 101  &  Introductory Course  &  \cite{smithPython101Introduction2023a, smithPython101Advanced2023} \\
+  Java Fundamentals  & Object-oriented Programming & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} \\
+  Java Fundamentals &  GUI Development & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} \\
+  
+  DataScienceBasics &  Data Analysis   & \cite{brownDataScienceBasics2023}  \\
+  Data Science Basics &  Machine Learning Models  &  \cite{brownDataScienceBasics2023}  \\
+  Data Science Basics &  Data Visualization  &  \cite{brownDataScienceBasics2023}  \\
+  
+  Cyber Security Fundamentals &  Network Security Fundamentals  & \cite{wilsonCyberSecurityFundamentals2023} \\
+  Cyber Security Fundamentals &  Ethical Hacking     & \cite{wilsonCyberSecurityFundamentals2023} \\
+  
+  Web Development 101 &  Frontend Development  & \cite{johnsonWebDevelopment1012023} \\
+
+  Mobile App Development &  App Development Basics    & \cite{thomasMobileAppDevelopmentBasics2023} \\
+  Mobile App Development &  Backend Integration   & \cite{thomasMobileAppDevelopmentBasics2023} \\
+  
+
+   \hline
+   \hline
+   Machine Learning Mastery &   Neural Networks  &  \cite{wilsonMachineLearningMastery2023} \\
+   Machine Learning Mastery &   Reinforcement Learning    &  \cite{wilsonMachineLearningMastery2023} \\
+  
+   Cloud Computing Essentials & Cloud Infrastructure &  \cite{leeCloudComputingEssentials2023}\\
+  Database Management Systems & Database Design  & \cite{adamsDatabaseManagementSystems2023} \\
+  Database Management Systems & Query Optimization & \cite{adamsDatabaseManagementSystems2023} \\
+  Game Development Basics & Graphics Programming & \cite{martinezGameDevelopmentBasics2023}  \\
+
+
+  Cyber Security Professional  &  Incident Response & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+ Cyber Security Professional  & Penetration Testing & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+  Cyber Security Professional  & Threat Intelligence & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+ 
+  Cyber Security Professional  &  Cryptography & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} \\
+  \hline 
+  \end{tabular}
+ChatGPT
+
+Sure, here's the modified table with the "Course" and "Literature" columns swapped:
+
+latex
+
+\begin{tabular}{lll}
+  Topic  & Literature & Course \\
+  \hline   
+  Python 101  &  \cite{smithPython101Introduction2023a, smithPython101Advanced2023} & Introductory Course \\
+  Java Fundamentals  & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} & Object-oriented Programming \\
+  Java Fundamentals & \cite{jonesJavaFundamentalsBeginners2023}, \href{https://github.com/example/JavaFundamentals}{Code} & GUI Development \\
+  
+  DataScienceBasics & \cite{brownDataScienceBasics2023}  & Data Analysis   \\
+  Data Science Basics &  \cite{brownDataScienceBasics2023}  & Machine Learning Models  \\
+  Data Science Basics &  \cite{brownDataScienceBasics2023}  & Data Visualization  \\
+  
+  Cyber Security Fundamentals & \cite{wilsonCyberSecurityFundamentals2023} & Network Security Fundamentals  \\
+  Cyber Security Fundamentals & \cite{wilsonCyberSecurityFundamentals2023} & Ethical Hacking     \\
+  
+  Web Development 101 & \cite{johnsonWebDevelopment1012023} & Frontend Development  \\
+
+  Mobile App Development & \cite{thomasMobileAppDevelopmentBasics2023} & App Development Basics    \\
+  Mobile App Development & \cite{thomasMobileAppDevelopmentBasics2023} & Backend Integration   \\
+  
+
+   \hline
+   \hline
+   Machine Learning Mastery &  \cite{wilsonMachineLearningMastery2023} & Neural Networks  \\
+   Machine Learning Mastery &  \cite{wilsonMachineLearningMastery2023} & Reinforcement Learning    \\
+  
+   Cloud Computing Essentials & \cite{leeCloudComputingEssentials2023} & Cloud Infrastructure \\
+  Database Management Systems & \cite{adamsDatabaseManagementSystems2023} & Database Design  \\
+  Database Management Systems & \cite{adamsDatabaseManagementSystems2023} & Query Optimization \\
+  Game Development Basics & \cite{martinezGameDevelopmentBasics2023} & Graphics Programming  \\
+
+
+  Cyber Security Professional  & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} & Incident Response \\
+ Cyber Security Professional  & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} & Penetration Testing \\
+  Cyber Security Professional  & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} & Threat Intelligence \\
+ 
+  Cyber Security Professional  & \cite{thompsonCyberSecurityPro2024,williamsCyberSecurityPro2023} & Cryptography \\
+  \hline 
+  \end{tabular}
+
+Let me know if you need further assistance!
